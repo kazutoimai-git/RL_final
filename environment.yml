@@ -1,0 +1,12 @@
+name: othello-ai
+channels:
+  - conda-forge  # ✅ pygameを見つけるために、このチャンネルを追加
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pytorch
+  - tqdm
+  - pygame
+  - pip
